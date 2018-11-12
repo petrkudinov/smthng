@@ -1,0 +1,8 @@
+# выводит списком все простые числа до заданного числа
+a = int(input())
+x = 0
+while x <= a:
+    if ((x % 2) and (x % 3) and (x % 5) and (x % 7) != 0) or x == 2 or x == 3 or x == 5 or x == 7:
+        print(x)
+        x += 1
+    x += 1
